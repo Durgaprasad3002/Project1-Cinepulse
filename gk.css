@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #001f3f, #005f99);
+    text-align: center;
+}
+
+.movie-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.movie-box img {
+    width: 35%;
+
+    border-radius: 2px;
+    margin-bottom: 0px;
+}
+
+.movie-box h2 {
+
+    font-size: 24px;
+    color: #333;
+}
+
+.movie-box p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.book-btn {
+    display: inline-block;
+    background: #ff5722;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.book-btn:hover {
+    background: #ff7043;
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
